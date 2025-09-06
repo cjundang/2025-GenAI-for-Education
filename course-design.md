@@ -1072,13 +1072,7 @@ Generative AI เช่น GPT ช่วยครูใน 3 ส่วนหล�
 
 ---
 
-
-เข้าใจแล้วครับ 🙂
-คุณต้องการ **Template Prompt** ที่สามารถสร้าง **Assessment Toolkit** ได้ **ครบวงจร** โดยยกตัวอย่างจาก **เคสการใช้งานจริง** แบบเดียวกับตัวอย่างที่ผมสร้างให้ก่อนหน้านี้
-
-ดังนั้น ผมจะสร้าง **Template Prompt** ที่สามารถปรับใช้ได้กับทุกวิชาและทุก LO โดยจะใช้โครงสร้าง **เดียวกันกับตัวอย่างที่คุณเห็น** ซึ่งครอบคลุมทั้งหมด **7 องค์ประกอบ** ของ Assessment Toolkit
-
----
+ 
 
 # **📌 Template Prompt: สร้าง Assessment Toolkit ครบวงจร**
 
@@ -1296,7 +1290,22 @@ Grade level "[Grade Level/Academic Year]"
 2. กำหนดน้ำหนักคะแนน (Weighting) ของแต่ละกิจกรรม
 3. จัดแสดงในรูปแบบตาราง: LO | วิธีประเมิน | ประเภท | น้ำหนักคะแนน (%)
 ```
+English version
+```
+You are an expert in learning assessment and evaluation.  
+Help design an **Assessment Blueprint** for the course "[Course Name]"  
+Level "[Grade Level/Academic Year]"  
 
+**Information provided:**
+- Learning Outcomes: [Fill in LO]
+- Duration: [Fill in hours/weeks]
+- Type of assessment required: [Formative / Summative / Both]
+
+**Additional instructions:**
+1. Specify assessment methods that align with each LO
+2. Determine score weighting for each activity
+3. Display in table format: LO | Assessment Method | Type | Score Weighting (%)
+```
 ---
 
 ## **Template 3: การออกแบบกิจกรรมการเรียนรู้ (Learning Activities)**

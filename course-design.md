@@ -1327,7 +1327,22 @@ Level "[Grade Level/Academic Year]"
 2. ระบุรายละเอียดกิจกรรม: วัตถุประสงค์, ขั้นตอน, เวลา
 3. จัดผลลัพธ์ในรูปแบบตาราง: ชื่อกิจกรรม | วัตถุประสงค์ | ขั้นตอน | เวลา (นาที)
 ```
+English
+```
+You are an expert in designing learning activities.  
+Help design **Learning Activities** for the course "[Course Name]"  
+Level "[Grade Level/Academic Year]"  
 
+**Information provided:**
+- Learning Outcomes: [Fill in LO]
+- Class time: [Fill in hours]
+- Teaching format: [Online / Offline / Hybrid]
+
+**Additional instructions:**
+1. Propose at least 3 activities that align with LO
+2. Specify activity details: objectives, procedures, time
+3. Display results in table format: Activity Name | Objectives | Procedures | Time (minutes)
+```
 ---
 
 ## **Template 4: การออกแบบโครงสร้างคอร์ส (Course Structure)**
@@ -1350,6 +1365,25 @@ Level "[Grade Level/Academic Year]"
 3. จัดผลลัพธ์ในรูปแบบตาราง: สัปดาห์ | หัวข้อ | LO | กิจกรรม | วิธีประเมิน
 ```
 
+```
+
+------
+
+You are an expert in course design.  
+Help create a **Course Structure** for the course "[Course Name]"  
+Level "[Grade Level/Academic Year]"  
+
+**Information provided:**
+- Total course duration: [Fill in number of weeks]
+- Learning Outcomes: [Fill in LO]
+- Main topics to cover: [Insert topics]
+
+**Additional instructions:**
+1. Create a weekly lesson plan
+2. Specify topics, related LOs, activities, and assessments
+3. Display results in table format: Week | Topic | LO | Activities | Assessment Method
+
+```
 ---
 
 ## **Template 5: การสร้างสื่อและใบงานประกอบคอร์ส**
@@ -1370,6 +1404,23 @@ Level "[Grade Level/Academic Year]"
 1. สร้างใบงานหรือสื่อการสอน 1–2 ตัวอย่าง
 2. ระบุวัตถุประสงค์ของใบงาน, โครงสร้างเนื้อหา, และวิธีใช้
 3. จัดผลลัพธ์ในรูปแบบตาราง: ชื่อสื่อ | วัตถุประสงค์ | เนื้อหา | วิธีใช้
+```
+
+```
+
+You are a professional instructional media designer.  
+Help create **Course Media and Worksheets** for the course "[Course Name]"  
+Level "[Grade Level/Academic Year]"  
+
+**Information provided:**
+- Learning Outcomes: [Fill in LO]
+- Learning activities: [Specify main activities]
+- Media type: [Worksheets / Slides / Infographics / Exercise sheets]
+
+**Additional instructions:**
+1. Create 1–2 examples of worksheets or teaching media
+2. Specify worksheet objectives, content structure, and usage instructions
+3. Display results in table format: Media Name | Objectives | Content | Usage Instructions
 ```
 
 ---

@@ -262,41 +262,44 @@ Please create a **Storyboard** for an educational video clip using **Minimax (Im
 
 **ข้อมูลที่กรอกใน Prompt:**
 
+
 ```
 คุณคือครูและนักออกแบบสื่อการสอน  
 ช่วยสร้าง Storyboard สำหรับคลิปสื่อการสอนโดยใช้ Minimax (Image-to-Video)
 
-**หัวข้อบทเรียน:** ระบบสุริยะจักรวาล  
-**วิชา:** วิทยาศาสตร์  
-**ระดับชั้น:** ป.5  
-**เวลารวมของคลิป:** 30 วินาที  
-**จำนวนคลิปย่อย:** 4 คลิป  
-**เวลาต่อคลิป:** 6s, 8s, 8s, 8s  
-**ประเด็นสำคัญ:**  
-- คลิป 1: แนะนำระบบสุริยะ  
-- คลิป 2: ดาวเคราะห์ทั้ง 8  
-- คลิป 3: โลกและความพิเศษ  
-- คลิป 4: สรุปและชวนเรียนรู้ต่อ
+**หัวข้อบทเรียน:** [ระบบสุริยะจักรวาล] 
+**วิชา:** [วิทยาศาสตร์]
+**ระดับชั้น:** [ ป.5 ]
+**เวลารวมของคลิป:** [ 30 ] วินาที 
+**จำนวนคลิปย่อย:** [4] คลิป  
+**เวลาต่อคลิป:** [6,6,6,6] วินาที 
+**ประเด็นสำคัญ:**  เนื้อหาบรรยายไม่เกินเวลาที่กำหนดและแบ่งจำนวนเวลาเท่ากับคลิป
 
 **สิ่งที่ต้องการ:**  
-- สร้าง Prompt สำหรับ Canva เพื่อสร้างภาพต้น (Start Image) และภาพจบ (End Image) ของแต่ละคลิป (ภาษาอังกฤษ)  
-- สร้างข้อความบรรยาย (Narration Text) สำหรับแต่ละคลิป ความยาวไม่เกิน 80 ตัวอักษร  
+- สร้าง Prompt สำหรับ Canva เพื่อสร้างภาพต้น (Start Image) และภาพจบ (End Image) ของแต่ละคลิป (ภาษาอังกฤษ)  ไม่ขัดกับนโยบายของ canva
+- สร้างข้อความบรรยาย (Narration Text) สำหรับแต่ละคลิป ความยาวไม่เกิน 80 ตัวอักษร บทพูดไม่เกิน 6 วินาที
 - แสดงผลลัพธ์ในรูปแบบตาราง 4 คอลัมน์:  
   1. Prompt Start  
   2. Prompt End  
   3. Duration  
   4. Narration Text  
-- โทนภาพ: 3D Animation, Cartoon, Pixar-style, สีสันสดใส น่าสนใจ เหมาะกับเด็ก ป.5
+- โทนภาพ: 3D Animation, Cartoon, สีสันสดใส น่าสนใจ เหมาะกับผู้เรียน
 ```
+
+
+
+
 
 #### **ขั้นตอนที่ 2 — ตัวอย่างผลลัพธ์ที่ได้จาก ChatGPT**
 
-| Prompt Start                                                                                                                                                                                                           | Prompt End                                                                                                                                          | Duration | Narration Text                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------- |
-| A wide shot of the solar system, showing the Sun at the center with planets orbiting around, colorful 3D animation, cartoon style, vibrant and playful, cinematic lighting, educational for Grade 5 students, ultra-HD | A wide cinematic view of the solar system, planets highlighted, glowing orbits, colorful Pixar-style cartoon, bright, playful, educational for kids | 6s       | Hi everyone! Today we’ll explore the Solar System and its wonders!                  |
-| 3D animation showing 8 colorful planets orbiting the Sun, playful Pixar cartoon style, cinematic educational visuals                                                                                                   | Wide shot showing all 8 planets with their names floating above them, bright colorful 3D cartoon, ultra-HD illustration, fun and engaging           | 8s       | There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune! |
-| Close-up of planet Earth, realistic 3D cartoon, showing oceans, clouds, and continents, cinematic Pixar-style visuals                                                                                                  | Rotating Earth with the Moon orbiting around, vibrant 3D cartoon animation, colorful Pixar-style, educational illustration                          | 8s       | Earth is the only planet with life because it has water, air, and sunlight!         |
-| Cinematic wide view of the entire solar system, Sun shining, planets orbiting, colorful Pixar-style animation                                                                                                          | Overview of the solar system with all planet names labeled, bright, vibrant 3D cartoon, educational for kids, ultra-HD Pixar-style                  | 8s       | That’s our Solar System! Let’s keep exploring the amazing world of space!           |
+| Prompt Start                                                                                                                                      | Prompt End                                                                                                        | Duration | Narration Text                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
+| **Clip 1**<br>“3D cartoon style, colorful outer space with planets, cute Thai kids in a spaceship, educational, vibrant colors, fun atmosphere”   | “3D cartoon style, zoom-in on the solar system model showing the Sun and planets, cheerful educational scene”     | 6 sec    | “Let's explore the amazing solar system together!”         |
+| **Clip 2**<br>“3D cartoon, the Sun shining brightly, planets orbiting around, colorful galaxy background, lively and fun learning vibe”           | “3D cartoon, close-up view of Mercury, Venus, Earth, and Mars moving around the Sun, bright and detailed”         | 6 sec    | “The Sun is the center and all planets orbit around it.”   |
+| **Clip 3**<br>“3D cartoon style, a cute Thai kid floating in space, pointing at giant planets Jupiter and Saturn, bright colors, playful vibe”    | “3D cartoon, zoom on Jupiter, Saturn, Uranus, and Neptune with beautiful rings, vibrant educational illustration” | 6 sec    | “Jupiter and Saturn are giant planets with special rings.” |
+| **Clip 4**<br>“3D cartoon, classroom scene with kids looking at a solar system poster, teacher explaining planets, lively colors, fun atmosphere” | “3D cartoon, kids cheering and pointing at the solar system chart, glowing stars, colorful space background”      | 6 sec    | “Learning about the solar system is so much fun!”          |
+
+
 
 
 #### **ขั้นตอนที่ 3 — นำไปใช้งาน**

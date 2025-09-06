@@ -200,48 +200,58 @@ A wide cinematic view of the solar system, with planets highlighted and their or
 
 **Template Prompt สำหรับ ChatGPT**
 
+
+
 ```
-คุณคือครูและนักออกแบบสื่อดิจิทัล  
-ช่วยสร้าง Storyboard สำหรับสร้างคลิปสื่อการสอนโดยใช้ Minimax (Image to Video)  
-- หัวข้อบทเรียน: [ใส่ชื่อบทเรียน]  
-- เนื้อหา: [สรุปประเด็นสำคัญที่จะสอน]  
-- ระดับชั้น: [เช่น ป.4, ป.5, ม.1]  
-- เวลารวมของคลิป: [ระบุ เช่น 30 วินาที]  
-- จำนวนคลิปย่อย: [ระบุจำนวนคลิป]  
-- ความยาวคลิปย่อยแต่ละตอน: [เช่น 6s, 8s, 8s, 8s]  
-- สไตล์ภาพ: 3D Animation, Cartoon, Bright, Colorful, Educational  
-- สร้าง Prompt สำหรับ Canva เพื่อสร้างภาพต้นและภาพจบ **แต่ละคลิป** เป็นภาษาอังกฤษ และไม่ขัดต่อนโยบายของ canva
-- สร้าง Text บรรยายเป็นภาษาอังกฤษที่สอดคล้องกับคลิป ความยาวไม่เกิน 80 ตัวอักษร  
-- จัดข้อมูลออกมาเป็นตาราง 4 คอลัมน์:  
+คุณคือครูและนักออกแบบสื่อการสอน  
+ช่วยสร้าง Storyboard สำหรับคลิปสื่อการสอนโดยใช้ Minimax (Image-to-Video)
+
+**หัวข้อบทเรียน:** [หัวข้อที่สอน] 
+**วิชา:** [วิชา]
+**ระดับชั้น:** [ชั้น]
+**เวลารวมของคลิป:** [ เวลา ] วินาที 
+**จำนวนคลิปย่อย:** [จำนวน] คลิป  
+**เวลาต่อคลิป:** [เวลา] วินาที 
+**ประเด็นสำคัญ:**  เนื้อหาบรรยายไม่เกินเวลาที่กำหนดและแบ่งจำนวนเวลาเท่ากับคลิป
+
+**สิ่งที่ต้องการ:**  
+- สร้าง Prompt สำหรับ Canva เพื่อสร้างภาพต้น (Start Image) และภาพจบ (End Image) ของแต่ละคลิป (ภาษาอังกฤษ)  ไม่ขัดกับนโยบายของ canva
+- สร้างข้อความบรรยาย (Narration Text) สำหรับแต่ละคลิป ความยาวไม่เกิน 80 ตัวอักษร บทพูดไม่เกิน 6 วินาที
+- แสดงผลลัพธ์ในรูปแบบตาราง 4 คอลัมน์:  
   1. Prompt Start  
   2. Prompt End  
   3. Duration  
   4. Narration Text  
+- โทนภาพ: 3D Animation, Cartoon, สีสันสดใส น่าสนใจ เหมาะกับผู้เรียน
 ```
+
+
 
 ** English version 
 
 ```
-You are an instructional media designer and AI prompt engineer.  
-Help me create a complete storyboard for Minimax (Image-to-Video) educational clips.  
+You are a **teacher** and **instructional media designer**.
+Please create a **Storyboard** for an educational video clip using **Minimax (Image-to-Video)**.
 
-**Lesson Topic:** [Insert Topic]  
-**Subject:** [Insert Subject]  
-**Grade Level:** [Insert Grade]  
-**Total Video Duration:** [Insert Total Duration]  
-**Number of Clips:** [Insert Number of Clips]  
-**Duration per Clip:** [Insert Clip Durations]  
-**Key Learning Points:** [List Key Concepts for Each Clip]  
+**Lesson Topic:** \[Lesson Topic]
+**Subject:** \[Subject]
+**Grade Level:** \[Grade]
+**Total Video Duration:** \[Time] seconds
+**Number of Sub-Clips:** \[Number] clips
+**Duration per Clip:** \[Time] seconds
+**Key Points:** The narration must **not exceed the given duration** and the total time should be evenly divided among the clips.
 
-**Requirements:**  
-- Create prompts in **English** for Canva to generate the **start** and **end images** for each clip.  
-- Use a **3D Pixar-style cartoon animation**, bright colors, and an engaging, educational tone. However, do not conflict the Canva's policy.  
-- Generate **narration text** for each clip (maximum **80 characters**).  
-- Provide the result in a **table** with 4 columns:  
-    1. Prompt Start  
-    2. Prompt End  
-    3. Duration  
-    4. Narration Text
+**Requirements:**
+
+* Create **prompts** for Canva to generate the **start image** and **end image** for each clip (**in English**) and ensure they **comply with Canva’s policies**.
+* Create **narration text** for each clip, with a **maximum of 80 characters** and a **speaking duration of no more than 6 seconds**.
+* Present the results in a **table** with **4 columns**:
+
+  1. Prompt Start
+  2. Prompt End
+  3. Duration
+  4. Narration Text
+* **Image Tone:** 3D Animation, Cartoon, Bright and Colorful, Attractive, and Suitable for Learners
 ```
 
 ### **🟢 ตัวอย่างการใช้งาน Template Prompt (ภาษาไทย)**

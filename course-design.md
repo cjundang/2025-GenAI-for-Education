@@ -1256,7 +1256,25 @@ Generative AI เช่น GPT ช่วยครูใน 3 ส่วนหล�
 3. ระบุ **คำกริยาเชิงพฤติกรรม** ตาม Bloom’s Taxonomy  
 4. จัดผลลัพธ์ในรูปแบบตาราง: LO | พฤติกรรมที่สังเกตได้ | เกณฑ์การวัดผล
 ```
+English version
 
+```
+You are an instructional design expert.  
+Help me design **Learning Outcomes (LO)** for the course "[Course Name]"  
+Grade level "[Grade Level/Academic Year]"  
+
+**Information provided:**
+- Course topics: [Fill in topics]
+- Duration: [Fill in hours/weeks]
+- Learners: [Learner level e.g., Grade 4 / Grade 8 / Undergraduate]
+- Main course objectives: [Insert goals]
+
+**Additional instructions:**
+1. Write 3–5 Learning Outcomes
+2. Use the **ABCD Model** format (Audience, Behavior, Condition, Degree)
+3. Specify **behavioral verbs** according to Bloom's Taxonomy  
+4. Organize outcomes in table format: LO | Observable Behaviors | Assessment Criteria
+```
 ---
 
 ## **Template 2: การออกแบบการประเมินผล (Assessment Blueprint)**
